@@ -1,0 +1,128 @@
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing:border-boxs;
+   
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Mobile-bar-branding-logo {
+    width: 60px;
+}
+.img-fluid{
+    height: 280px;
+    width: "100%";
+}
+
+/* footer */
+h4{
+    font-size: medium;
+}
+p{
+    font-size: small;
+}
+.placeholder{
+    font-size: small;
+    opacity: 0.75;
+}
+.text-bottom{
+    opacity: 0.75;
+}
+.bot{
+    opacity: 0.25 !important;
+}
+.botplot{
+    opacity: 0.25 !important;
+    padding-left: 900px;
+}
+.logoImg{
+    opacity: 0.2;
+    text-align: left;
+}
+
+
+/* bool */
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 55px;
+    margin-left: 25px;
+    text-align: left;
+  }
+  
+  .image-box {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .row img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 5vh;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .row {
+    position: relative;
+  }
+  
+  .box {
+    position: relative;
+    padding-bottom: 5vh;
+    display: inline-block; /* Make the width of box same as image */
+  }
+  .box .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    color: black;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: left;
+    width: auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px !important;
+    height: auto; /* Set the width of the positioned div */
+  }
+  
+  .carousel-item img {
+    height: 300px !important;
+    width: auto;
+  }
+  .button{
+    color: black;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
